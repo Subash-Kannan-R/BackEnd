@@ -14,9 +14,10 @@ app.use(cors());
 app.use("/api/auth", authRouter);
 
 app.listen(PORT,() =>{
+    
     console.log(`Run Sucess https://localhost:${PORT}`);
     
 })
 
 
-//https://localhost:3000/api/auth
+// https://localhost:3000/api/auth
